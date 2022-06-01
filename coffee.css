@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    background-color: #290c07;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 200;
+}
+#mainMenu {
+    margin: auto;
+    padding-left: 250px;
+	width:900px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#mainMenu li {
+	display:inline;
+	width:120px;
+	float:left;
+	margin-left:2px;
+    padding-top: 50px;
+}
+#mainMenu a {
+	display:inline;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#290c07;
+}
+img {
+    float: left;
+}
+#mainMenu a:hover {
+	background-color:#290c07;
+	color:#fff;
+}
