@@ -2,6 +2,10 @@ body {
     margin: 0;
     padding: 0;
 }
+h1 {
+    display: inline-block;
+    margin: 10px; 
+}
 h3 {
     background-color: #290c07;
     color: white;
@@ -24,7 +28,7 @@ h3 {
 	width:120px;
 	float:left;
 	margin-left:2px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 #mainMenu a {
 	display:inline;
@@ -35,8 +39,33 @@ h3 {
 }
 img {
     float: left;
+    padding-left: 100px;
 }
 #mainMenu a:hover {
 	background-color:#290c07;
 	color:#fff;
+}
+#first {
+padding-left: 500px;
+padding-top: 20px;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.big {
+    font-size: 47px; 
+    font-weight: lighter;
+}
+.bold {
+    font-weight: bolder;
+}
+.better {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#second {
+    padding: 200px; 
+    border: 200px; 
+    margin-top:50px; 
+    background-color: #CA9E6C;
 }
